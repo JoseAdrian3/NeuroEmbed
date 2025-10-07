@@ -14,7 +14,7 @@ NeuroEmbed is available [here](http://155.54.95.169:8501/).
 
 NeuroEmbed repository is available [here](http://155.54.95.169:8502/). 
 
-NeuroEmbed uses a Gradio interface. Users simply type a question, receive streamed results in the browser, and can drill down to sample-level details. The prototype runs on a fine-tuned PubMedBERT encoder trained on 368k question–cohort pairs. NeuroEmbed achieves a mean retrieval precision of 0.87 and resolves four-term queries with perfect accuracy across our 2,801 cohorts and 150,924 samples. Ongoing work is extending coverage to complete sample metadata and multi-omics signatures, so that future queries can combine clinical metadata with molecular similarity.
+NeuroEmbed uses a Streamlit interface. Users simply type a question, receive streamed results in the browser, and can drill down to sample-level details. The prototype runs on a fine-tuned PubMedBERT encoder trained on 368k question–cohort pairs. NeuroEmbed achieves a mean retrieval precision of 0.92 and resolves four-term queries with perfect accuracy across our 2,801 cohorts and 204.361 samples. Ongoing work is extending coverage to complete sample metadata and multi-omics signatures, so that future queries can combine clinical metadata with molecular similarity.
 
 For more information about the methodology behind NeuroEmbed, please see our [preprint](https://arxiv.org/abs/2506.13467).
 
